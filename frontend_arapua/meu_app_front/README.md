@@ -1,8 +1,6 @@
-# Meu Front
+# FrontEnd para o Projeto das Lojas Arapuã
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
-
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+Este projeto tem o objetivo de criar um cadastro de clientes e produtos das lojas e franquias da Arapuã
 
 ---
 ## Como executar
