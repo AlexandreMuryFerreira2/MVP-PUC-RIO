@@ -1,8 +1,6 @@
-# Minha API
+# API para as Lojas Arapuã
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
-
-O objetivo aqui é ilutsrar o conteúdo apresentado ao longo das três aulas da disciplina.
+Esta API tem o objetivo de cadastrar os clientes e produtos das franquias Arapuã.
 
 ---
 ## Como executar 
