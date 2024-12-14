@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h1>Rede de Lojas ARAPUÃ</h1>
+        </div>
+        <div class="banner">
+            <img src="https://i.pinimg.com/originals/f6/7c/a6/f67ca633384db0bdd6464d202325af54.jpg?width=1200&height=630&fit=crop"
+                alt="y">
+        </div>
+    </header>
+    <div class="title">
+        <h1>Cadastro de Estoque</h1>
+    </div>
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Adicionar novo item:">
+        <input type="text" id="newQuantity" placeholder="Quantidade:">
+        <input type="text" id="newPrice" placeholder="Valor:">
+        <input type="text" id="newFilial" placeholder="Filial:">
+        <button onclick="newItem()" class="addBtn">Adicionar</button>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+                <th>Filial</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+<br><br>
+    <div class="title">
+        <h1>Cadastro de Clientes</h1>
+    </div>
+     <!-- Opções para adicionar um novo Cliente -->
+     <section class="newItem">
+        <input type="text" id="newNomeCliente" placeholder="Nome do Cliente:">
+        <input type="text" id="newTelefoneCliente" placeholder="Telefone:">
+        <input type="text" id="newEnderecoCliente" placeholder="Endereço:">
+        <input type="text" id="newCidadeCliente" placeholder="Cidade:">
+        <input type="text" id="newEstadoCliente" placeholder="Estado:">
+        <button onclick="newItemCliente()" class="addBtn">Adicionar</button>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTableCliente">
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+    <br><br>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
